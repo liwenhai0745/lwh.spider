@@ -31,7 +31,7 @@ namespace lwh.spider
             //Console.WriteLine(document.DocumentElement.OuterHtml);
 
             Dictionary<string, string> DictParas = new Dictionary<string, string>();
-            SiteService service = new SiteService("https://5252ll.com/luyilu/2018/0118/4532.html", "li.next-page > a", "article.article-content > p > img","ALS2");
+            SiteService service = new SiteService("图片地址", "li.next-page > a", "article.article-content > p > img","ALS2");
             service.FindUrls();
             Console.WriteLine("Hello World!");
 
